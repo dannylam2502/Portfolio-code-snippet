@@ -1,0 +1,12 @@
+E:\Study Documents\Nhập môn phát triển game\GameContra\Contra_Map_Editor\Contra_Map_Editor\bin\Debug\Contra_Map_Editor.exe.config
+E:\Study Documents\Nhập môn phát triển game\GameContra\Contra_Map_Editor\Contra_Map_Editor\obj\Debug\Contra_Map_Editor.exe
+E:\Study Documents\Nhập môn phát triển game\GameContra\Contra_Map_Editor\Contra_Map_Editor\obj\Debug\Contra_Map_Editor.pdb
+D:\Study\Release\GameContra_Final_2-1\GameContra_Final\Contra_Map_Editor\Contra_Map_Editor\bin\Debug\Contra_Map_Editor.exe.config
+D:\Study\Release\GameContra_Final_2-1\GameContra_Final\Contra_Map_Editor\Contra_Map_Editor\bin\Debug\Contra_Map_Editor.exe
+D:\Study\Release\GameContra_Final_2-1\GameContra_Final\Contra_Map_Editor\Contra_Map_Editor\bin\Debug\Contra_Map_Editor.pdb
+D:\Study\Release\GameContra_Final_2-1\GameContra_Final\Contra_Map_Editor\Contra_Map_Editor\obj\Debug\GameContra_Map_Editor.csprojResolveAssemblyReference.cache
+D:\Study\Release\GameContra_Final_2-1\GameContra_Final\Contra_Map_Editor\Contra_Map_Editor\obj\Debug\Contra_Map_Editor.Form1.resources
+D:\Study\Release\GameContra_Final_2-1\GameContra_Final\Contra_Map_Editor\Contra_Map_Editor\obj\Debug\Contra_Map_Editor.Properties.Resources.resources
+D:\Study\Release\GameContra_Final_2-1\GameContra_Final\Contra_Map_Editor\Contra_Map_Editor\obj\Debug\GameContra_Map_Editor.csproj.GenerateResource.Cache
+D:\Study\Release\GameContra_Final_2-1\GameContra_Final\Contra_Map_Editor\Contra_Map_Editor\obj\Debug\Contra_Map_Editor.exe
+D:\Study\Release\GameContra_Final_2-1\GameContra_Final\Contra_Map_Editor\Contra_Map_Editor\obj\Debug\Contra_Map_Editor.pdb

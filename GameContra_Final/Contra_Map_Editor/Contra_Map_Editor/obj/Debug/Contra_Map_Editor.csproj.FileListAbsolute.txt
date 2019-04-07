@@ -1,0 +1,9 @@
+C:\Users\darke_000\Documents\Visual Studio 2012\Projects\Contra_Map_Editor\Contra_Map_Editor\bin\Debug\Contra_Map_Editor.exe.config
+C:\Users\darke_000\Documents\Visual Studio 2012\Projects\Contra_Map_Editor\Contra_Map_Editor\bin\Debug\Contra_Map_Editor.exe
+C:\Users\darke_000\Documents\Visual Studio 2012\Projects\Contra_Map_Editor\Contra_Map_Editor\bin\Debug\Contra_Map_Editor.pdb
+C:\Users\darke_000\Documents\Visual Studio 2012\Projects\Contra_Map_Editor\Contra_Map_Editor\obj\Debug\Contra_Map_Editor.csprojResolveAssemblyReference.cache
+C:\Users\darke_000\Documents\Visual Studio 2012\Projects\Contra_Map_Editor\Contra_Map_Editor\obj\Debug\Contra_Map_Editor.Form1.resources
+C:\Users\darke_000\Documents\Visual Studio 2012\Projects\Contra_Map_Editor\Contra_Map_Editor\obj\Debug\Contra_Map_Editor.Properties.Resources.resources
+C:\Users\darke_000\Documents\Visual Studio 2012\Projects\Contra_Map_Editor\Contra_Map_Editor\obj\Debug\Contra_Map_Editor.csproj.GenerateResource.Cache
+C:\Users\darke_000\Documents\Visual Studio 2012\Projects\Contra_Map_Editor\Contra_Map_Editor\obj\Debug\Contra_Map_Editor.exe
+C:\Users\darke_000\Documents\Visual Studio 2012\Projects\Contra_Map_Editor\Contra_Map_Editor\obj\Debug\Contra_Map_Editor.pdb

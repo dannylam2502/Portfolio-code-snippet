@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D9966913-EE76-4273-9C84-7B02554CC0B6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GameContra</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;D:\Direct X 9.0\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;D:\Direct X 9.0\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\Direct X 9.0\Include;$(IncludePath)</IncludePath>
+    <LibraryWPath>D:\Direct X 9.0\Lib\x86;$(LibraryWPath)</LibraryWPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;D:\DirectX 9.0\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>dxerr.lib;d3d9.lib;d3dx9.lib;dsound.lib;dinput8.lib;dxguid.lib;winmm.lib;legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Artillery.h" />
+    <ClInclude Include="BaseBullet.h" />
+    <ClInclude Include="BasicBullet.h" />
+    <ClInclude Include="Bill.h" />
+    <ClInclude Include="Bom.h" />
+    <ClInclude Include="BomBay.h" />
+    <ClInclude Include="Boss_Stage1.h" />
+    <ClInclude Include="Boss_Stone.h" />
+    <ClInclude Include="Bridge.h" />
+    <ClInclude Include="Cannon1.h" />
+    <ClInclude Include="Cannon2.h" />
+    <ClInclude Include="DBullet.h" />
+    <ClInclude Include="ExploreAnimation.h" />
+    <ClInclude Include="Diver.h" />
+    <ClInclude Include="Eye_Boss_Stage2.h" />
+    <ClInclude Include="Falcon.h" />
+    <ClInclude Include="Fire.h" />
+    <ClInclude Include="GameEnd.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="Hide_Rifleman.h" />
+    <ClInclude Include="LifeNum.h" />
+    <ClInclude Include="MoonBullet.h" />
+    <ClInclude Include="MainBoss_Stage3.h" />
+    <ClInclude Include="Left_Hand_Boss_Stage2.h" />
+    <ClInclude Include="MapAnimation.h" />
+    <ClInclude Include="MouthBoss.h" />
+    <ClInclude Include="Platform_Rock.h" />
+    <ClInclude Include="RifleMan.h" />
+    <ClInclude Include="Right_Hand_Boss_Stage2.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Gun.h" />
+    <ClInclude Include="FlyingCapsule.h" />
+    <ClInclude Include="Large_Bullet.h" />
+    <ClInclude Include="Pool_Enemy_Bullet.h" />
+    <ClInclude Include="QuadTree.h" />
+    <ClInclude Include="Rock.h" />
+    <ClInclude Include="Ship.h" />
+    <ClInclude Include="SmallSpaceShip.h" />
+    <ClInclude Include="Small_Bullet.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ContraGame.h" />
+    <ClInclude Include="LBullet.h" />
+    <ClInclude Include="MBullet.h" />
+    <ClInclude Include="Soldier.h" />
+    <ClInclude Include="SweptAABB.h" />
+    <ClInclude Include="S_Bullet.h" />
+    <ClInclude Include="dxaudio.h" />
+    <ClInclude Include="EnemyBullet.h" />
+    <ClInclude Include="FBullet.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="Intro.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="PlayerBullet.h" />
+    <ClInclude Include="PoolBullet.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Resources.h" />
+    <ClInclude Include="Tank.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Water.h" />
+    <ClInclude Include="WorldMap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Artillery.cpp" />
+    <ClCompile Include="BaseBullet.cpp" />
+    <ClCompile Include="BasicBullet.cpp" />
+    <ClCompile Include="Bill.cpp" />
+    <ClCompile Include="Bom.cpp" />
+    <ClCompile Include="BomBay.cpp" />
+    <ClCompile Include="Boss_Stage1.cpp" />
+    <ClCompile Include="Boss_Stone.cpp" />
+    <ClCompile Include="Bridge.cpp" />
+    <ClCompile Include="Cannon1.cpp" />
+    <ClCompile Include="Cannon2.cpp" />
+    <ClCompile Include="DBullet.cpp" />
+    <ClCompile Include="Diver.cpp" />
+    <ClCompile Include="ExploreAnimation.cpp" />
+    <ClCompile Include="Eye_Boss_Stage2.cpp" />
+    <ClCompile Include="Falcon.cpp" />
+    <ClCompile Include="Fire.cpp" />
+    <ClCompile Include="GameEnd.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="Hide_Rifleman.cpp" />
+    <ClCompile Include="Left_Hand_Boss_Stage2.cpp" />
+    <ClCompile Include="LifeNum.cpp" />
+    <ClCompile Include="MapAnimation.cpp" />
+    <ClCompile Include="MouthBoss.cpp" />
+    <ClCompile Include="Platform_Rock.cpp" />
+    <ClCompile Include="RifleMan.cpp" />
+    <ClCompile Include="Right_Hand_Boss_Stage2.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Gun.cpp" />
+    <ClCompile Include="FlyingCapsule.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ContraGame.cpp" />
+    <ClCompile Include="Large_Bullet.cpp" />
+    <ClCompile Include="LBullet.cpp" />
+    <ClCompile Include="MBullet.cpp" />
+    <ClCompile Include="Pool_Enemy_Bullet.cpp" />
+    <ClCompile Include="QuadTree.cpp" />
+    <ClCompile Include="Rock.cpp" />
+    <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="SmallSpaceShip.cpp" />
+    <ClCompile Include="Small_Bullet.cpp" />
+    <ClCompile Include="Soldier.cpp" />
+    <ClCompile Include="MainBoss_Stage3.cpp" />
+    <ClCompile Include="MoonBullet.cpp" />
+    <ClCompile Include="SweptAABB.cpp" />
+    <ClCompile Include="S_Bullet.cpp" />
+    <ClCompile Include="dxaudio.cpp" />
+    <ClCompile Include="EnemyBullet.cpp" />
+    <ClCompile Include="FBullet.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Global.cpp" />
+    <ClCompile Include="Intro.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Platform.cpp" />
+    <ClCompile Include="PlayerBullet.cpp" />
+    <ClCompile Include="PoolBullet.cpp" />
+    <ClCompile Include="Resources.cpp" />
+    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Water.cpp" />
+    <ClCompile Include="Winmain.cpp" />
+    <ClCompile Include="WorldMap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameContra.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
