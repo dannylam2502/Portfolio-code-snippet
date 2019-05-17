@@ -23,7 +23,8 @@ What I've done:
   - Integrated Google Analysis, FireBase, AppsFlyer to check the game performance
   - Integrated Ads
   
-Best Memorable moments:
+Best memorable moments:
   - Finally the game can run on 1GB Ram devices (512MB to go).
   - Looking at the chart to see the money bumping when it's at peak performance.
+  - Going offline with gamers and have a big party.
   
