@@ -3,7 +3,8 @@ This folder contains demos and some code in my school projects. Feel free to con
 
 Projects so far:
 
-FruitTarget | RTS Arena Battle Game | Company Project
-Tinifarm | Casual Game | Company Project
-LupinAdventure | 2D Platform Game | Team Project
-Contra | 2D Remake | Team Project
+- FruitTarget | RTS Arena Battle Game | Company Project
+- Tinifarm | Casual Game | Company Project
+- LupinAdventure | 2D Platform Game | Team Project
+- Contra | 2D Remake | Team Project
+
