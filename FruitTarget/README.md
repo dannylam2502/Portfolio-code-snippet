@@ -1,6 +1,6 @@
 # FruitTarget
 
-Fruit Target is Arena Shooter game that I worked as Client Side Developer in VNG. The game is very light (35MB) but has nice graphic and gameplay. It can run smoothly on 512MB Ram devices which is the big advantage when aiming to developing market like India or Sea. Sadly, the director decided not invest anymore because after 3 months release, the game still not perform well due to various reasons.
+Fruit Target is Arena Shooter game that I worked as Client Side Developer in VNG. The game is very light (35MB) but has nice graphic and gameplay. It can run smoothly on 512MB Ram devices which is the big advantage when aiming to developing markets like India or Sea. Sadly, the director decided not invest anymore because after 3 months release, the game still not perform well due to various reasons.
 
 The game has 2 modes:
   - Free mode: https://www.youtube.com/watch?v=LZaMvoBwHjA
@@ -26,7 +26,7 @@ What I've done:
 and much more.
 
 Best memorable moments:
- - Passed All QC round test without any bugs in a 2 weeks sprint.
+ - Passed All QC round test without any bug in a 2 weeks sprint.
  - Identified and fixed a critical bug crash just before 2 hours release plan.
  - The tribe system passed final QC round test
  - Won a closed match against my teammate.
