@@ -26,7 +26,7 @@ What I've done:
 and much more.
 
 Best memorable moments:
- - Pass All QC round test without any bugs in a 2 weeks sprint.
- - Identify and fix a critical bug crash just 2 hours release plan.
- - The tribe system pass final QC round test
- - Win a closed match against my teammate.
+ - Passed All QC round test without any bugs in a 2 weeks sprint.
+ - Identified and fixed a critical bug crash just 2 hours release plan.
+ - The tribe system passed final QC round test
+ - Won a closed match against my teammate.
