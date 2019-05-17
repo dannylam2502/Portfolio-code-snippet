@@ -14,6 +14,7 @@ Technical used:
   - Spine.
   - NGUI, tweening.
   - Native Android & iOS.
+  
 What I've done:
   - Optimize the game logic
   - Reduce the bundle size
@@ -21,6 +22,7 @@ What I've done:
   - Features in game: Nursery system, garden system, new pet system, mystery chest, payments, tutorial, events in game and much more.
   - Integrated Google Analysis, FireBase, AppsFlyer to check the game performance
   - Integrated Ads
+  
 Best Memorable moments:
   - Finally the game can run on 1GB Ram devices (512MB to go).
   - Looing at the chart to see the money bumping when it's at peak performance.
