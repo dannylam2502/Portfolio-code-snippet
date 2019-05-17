@@ -7,7 +7,7 @@ The game has 2 modes:
   - Arena mode: https://www.youtube.com/watch?v=8EdjNF7E5qQ
 
 Technical used in Client:
-	- Cocos2d-x framework.
+  - Cocos2d-x framework.
   - C++.
   - Box2d for physic ingame.
   - Spine for animation.
@@ -24,3 +24,9 @@ What I've done:
   - Golden Fruit
   
 and much more.
+
+Best memorable moments:
+ - Pass All QC round test without any bugs in a 2 weeks sprint.
+ - Identify and fix a critical bug crash just 2 hours release plan.
+ - The tribe system pass final QC round test
+ - Win a closed match against my teammate.
