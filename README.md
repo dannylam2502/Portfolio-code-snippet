@@ -1,5 +1,5 @@
 # Project Demos
-This folder contains demos and some code in my school projects. Feel free to contact me if you need any help.
+This folder contains demos from my professional experience and some code in my school projects. Feel free to contact me if you need any help.
 
 Projects so far:
 
