@@ -25,5 +25,5 @@ What I've done:
   
 Best Memorable moments:
   - Finally the game can run on 1GB Ram devices (512MB to go).
-  - Looing at the chart to see the money bumping when it's at peak performance.
+  - Looking at the chart to see the money bumping when it's at peak performance.
   
