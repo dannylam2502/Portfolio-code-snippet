@@ -1,7 +1,6 @@
 # Lupin Adventure
 
-This is a game demo I worked with 2 other classmates in university. It's 2D platform game. You control the character to pass through all the level and kill the evil.
-The game has 11 maps.
+This is a game demo I worked with 2 other classmates in university. It's 2D platform game. Player control the character to pass through all the levels and kill the evils. After each boss, the character will get a familiar to help them. The game has 11 maps and features a lot physics objects like: Spring, Rope, Ladder. This game can improve a lot more because the technical underlying is very good.
 
 Video demos:
   - Boss 1: https://www.youtube.com/watch?v=wORbgxrcZfk
@@ -15,5 +14,5 @@ Technical used:
 
 My main responsibility:
   - Design and implement all levels.
-  - Implement platforms and some entity.
+  - Implement platforms and some entities.
   
