@@ -1,6 +1,7 @@
 # Contra
 
-This is the game I work with 3 classmates in school using DirectX9. We did implement Stage 1, 3 and 5
+This is the game I worked with 3 classmates in school using DirectX9. We did implement Stage 1, 3 and 5.
+
 Demos:
   - Stage 3: https://www.youtube.com/watch?v=wbeFS0QBrSE 
   - Stage 5: https://www.youtube.com/watch?v=ICuYtWxsTEk
